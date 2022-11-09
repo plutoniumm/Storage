@@ -1,0 +1,38 @@
+[
+    {
+        "name": "StarTalk",
+        "url": "https://feeds.simplecast.com/4T39_jAj"
+    },
+    {
+        "name": "QuantaMag",
+        "url": "https://api.quantamagazine.org/feed/podcast/"
+    },
+    {
+        "name": "Lingthusiasm",
+        "url": "https://feeds.soundcloud.com/users/soundcloud:users:237055046/sounds.rss"
+    },
+    {
+        "name": "Your Undivided Attention",
+        "url": "https://feeds.simplecast.com/rZ0cYk12"
+    },
+    {
+        "name": "Modulus: Brian Mcmanus",
+        "url": "https://rss.art19.com/modulus"
+    },
+    {
+        "name": "Probem Squared: Matt Parker",
+        "url": "https://aproblemsquared.libsyn.com/rss"
+    },
+    {
+        "name": "3b1b",
+        "url": "https://anchor.fm/s/636b4820/podcast/rss"
+    },
+    {
+        "name": "Revisionist History",
+        "url": "https://feeds.megaphone.fm/revisionisthistory"
+    },
+    {
+        "name": "Smart Talks with IBM",
+        "url": "https://feeds.megaphone.fm/smarttalks"
+    }
+]

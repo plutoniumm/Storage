@@ -1,0 +1,24 @@
+{
+	"name": "dustbin",
+	"version": "1.3.0",
+	"scripts": {
+		"clean": "rm -rf .svelte* && clear",
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"deploy": "npx gh-pages -d build -t true && rm -rf build .svelte*",
+		"git": "sh ./scripts/git.sh"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "next",
+		"@sveltejs/kit": "next",
+		"node-fetch": "^3.1.0",
+		"sass": "1.35.1",
+		"svelte": "3.44.0",
+		"svelte-preprocess": "4.7.3",
+		"vite": "2.4.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"predefined": "1.2.2"
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "motleymedia",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "server": "node ./server",
+    "server:dev": "nodemon ./server",
+    "build": "svelte-kit build",
+    "deploy": "npx gh-pages -d build -t true && rm -rf build .svelte*",
+    "git": "git add . && echo 'Add Message?' && read msg && git commit -m '$msg' && git push"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.31",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.46.0",
+    "svelte-preprocess": "^4.10.6",
+    "vite-plugin-replace": "^0.1.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.4",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16",
+    "vite": "^2"
+  }
+}
